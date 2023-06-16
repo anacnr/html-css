@@ -1,0 +1,4 @@
+Alguns dos desafios e exercícios foram inspirados em outros sites que vi pela Internet ou em outras artes que vi pela Internet também.
+
+Degradê da mesma cor, só mudando a opacidade
+2
