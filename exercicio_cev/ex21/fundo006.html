@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt -BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Texto e imagem</title>
     <style>
         body{
-            background-color: rgba(254, 156, 220, 0.503);
+            /*background-color: rgba(254, 156, 220, 0.503);
             background-image: url('imagens-cap19/wallpaper002.jpg');
             background-repeat: no-repeat ;
             background-size: cover;
-            background-position: center top;
+            background-position: center center;
             height: 100vh;
-            /*A medida vh é da tela e fez a imagem tampar tudo*/
+            A medida vh é da tela e fez a imagem tampar tudo
+            background-attachment: fixed;*/
+
+            /*Fazer shorthand*/
+            background:rgba(254, 156, 220, 0.503) url('imagens-cap19/wallpaper002.jpg') center center no-repeat;
+            /*O cover ainda não pode ser colocado na shorthand em 2023*/
+            background-size: cover;
         }
         main{
             background-color: white;
