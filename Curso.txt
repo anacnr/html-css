@@ -1,6 +1,6 @@
 Curso sobre HTML5 e CSS3 realizado pelo Curso em Vídeo.
 
-As pastas e arquivos criados foram baseadas nas pastas e arquivos do professor.
+As pastas e arquivos criados foram baseadas nas pastas e arquivos do professor. O conteúdo também.
 
 Os exercícios e desafios passados estam na página https://github.com/gustavoguanabara/html-css/tree/master
 Também no Canal do Curso em Vídeo no Youtube 
