@@ -8,4 +8,6 @@ Também no Canal do Curso em Vídeo no Youtube
 Os estudos também tiveram auxilío do repositório do professor com PDFs.https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf
 
 Os exemplos feitos nos códigos foram baseados nas aulas do curso que o professor ensinou.
+
+Fiz anotações das explicações.
  
