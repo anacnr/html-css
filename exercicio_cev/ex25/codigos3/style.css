@@ -28,3 +28,23 @@ html , body{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/*Css com a tela não deitada*/
+
+@media screen and (orientation: portrait) {
+    body{
+        background-image: url(imagens/cev-portrait.jpg);
+        background-position: center bottom;
+        background-size: cover;
+    }
+}
+
+/*Css com a tela deitada*/
+
+@media screen and (orientation: landscape){
+    body{
+        background-image: url(imagens/cev-landscape.jpg);
+        background-position: left bottom;
+        background-size: cover;
+    }
+}
