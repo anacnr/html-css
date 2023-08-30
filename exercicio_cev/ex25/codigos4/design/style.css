@@ -1,0 +1,29 @@
+@charset "UTF8";
+
+/* Device Breakpoints: Impressora, televisão, tablet e computador. Usa media query e as features 
+
+Pegar as referências de tamanho no site w3school, como o professor fez
+
+Essas configurações só foram exibidas direito no inspecionar e não deu certo criar tudo em um único arquivo CSS*/
+
+/*Vai configurar a tela do tamanho de um tablet*/
+@media screen and (min-width: 600px) and (max-width: 920px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);  
+    }
+
+    #touch{display: block; width: 50%; display: block; margin: auto;}
+    #portatil{display: none;}
+    }
+
+
+/*Tela do computador*/
+@media screen and (min-width: 922px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    #multitarefa{display: block; width: 50%; display: block; margin: auto;}
+    #touch{display: none;}
+    #portatil{display: none;}
+}
