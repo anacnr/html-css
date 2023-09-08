@@ -85,3 +85,19 @@ main{
 #tres:hover{
     cursor: pointer;   
 }
+
+@media screen and (min-width : 768px) {
+    
+    menu{
+
+    display: block;        
+    }
+
+    #tres{
+        display: none;
+    }
+
+    menu > nav > li{
+        display: inline-block;
+    }
+}

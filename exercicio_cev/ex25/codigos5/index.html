@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
-<body>
+<body onresize="tamanhodaTela()">
     <!--Esse menu me me lembrou a brincadeira de esconde-esconde que eu brincava na rua da minha avó-->
     <header>
         <h1>Menu da brincadeira Esconde-esconde</h1>
@@ -65,6 +65,16 @@
             }
             
             
+        }
+
+        function tamanhodaTela(){
+            let lista = document.querySelector("menu")
+            if (window.innerWidth >= 768){
+                lista.style.display = 'block'
+            }
+            else{
+                lista.style.display = 'none'
+            }
         }
     </script>
 </body>
